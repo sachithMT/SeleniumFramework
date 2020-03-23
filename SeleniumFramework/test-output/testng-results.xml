@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18412" started-at="2020-03-22T21:48:26 IST" finished-at="2020-03-22T21:48:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18412" started-at="2020-03-22T21:48:26 IST" finished-at="2020-03-22T21:48:44 IST">
+      <class name="com.learnautomation.testcases.TC001_LoginHRM">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.learnautomation.testcases.TC001_LoginHRM@7a187f14]" name="setupSuite" is-config="true" duration-ms="1176" started-at="2020-03-22T21:48:25 IST" finished-at="2020-03-22T21:48:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.learnautomation.testcases.TC001_LoginHRM@7a187f14]" name="setUp" is-config="true" duration-ms="9877" started-at="2020-03-22T21:48:26 IST" finished-at="2020-03-22T21:48:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.learnautomation.testcases.TC001_LoginHRM@7a187f14]" name="loginApp" duration-ms="5841" started-at="2020-03-22T21:48:36 IST" finished-at="2020-03-22T21:48:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDwonMerhod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.TC001_LoginHRM@7a187f14]" name="tearDwonMerhod" is-config="true" duration-ms="1623" started-at="2020-03-22T21:48:42 IST" finished-at="2020-03-22T21:48:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=TC001_LoginHRM.loginApp()[pri:0, instance:com.learnautomation.testcases.TC001_LoginHRM@7a187f14] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDwonMerhod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.TC001_LoginHRM@7a187f14]" name="tearDown" is-config="true" duration-ms="987" started-at="2020-03-22T21:48:43 IST" finished-at="2020-03-22T21:48:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.TC001_LoginHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
